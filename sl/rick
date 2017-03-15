@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <!-- Redirect Type 1 --> <!-- in case user has the script disabled... And also i felt like using both xD-->
+      <meta http-equiv="refresh" content="1;url=https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
+      <!-- Redirect Type 1 -->
+    </head>
+    <body>
+    <p><center>
+    You are about to be Rick Rolled</center></p>
+    <!-- Redirect Type 2 -->
+    <script>
+        var timer = setTimeout(function() {
+            window.location='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        }, 100);
+    </script>
+    <!-- Redirect Type 2 -->
+</body>
+</html>

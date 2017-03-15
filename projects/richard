@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Richard's Stuff</title>
+    <link rel="shortcut icon" type="image/png" href="fvc.png"/>
+    <style>
+    iframe {
+
+    }
+    </style>
+  </head>
+  <body>
+    <h1>My Brochure</h1>
+    <center>
+      <iframe src="/brs.pdf" style="width:1200px; height:700px;" frameborder="0"></iframe>
+    </center>
+  </body>
+</html>

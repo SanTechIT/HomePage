@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Basic Page</title>
+      <link rel="shortcut icon" type="image/png" href="fvc.png"/>
+      <style>
+
+      </style>
+    </head>
+    <body>
+      <embed src="/assets/passgen_final.jar">
+    </body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>DC Stuff</title>
+    <link rel="shortcut icon" type="image/png" href="/assets/fvc.png"/>
+    <style>
+    body {
+      background-color: orange;
+      text-align: center;
+    }
+    #title {
+      position:absolute;
+
+    }
+    #text1 {
+      position: absolute;
+      padding-top: 50px;
+
+    }
+    #table {
+      position: absolute;
+      padding-top: 100px;
+
+    }
+    #text2 {
+      position: absolute;
+      padding-top: 90px;
+      padding-left: 500px;
+    }
+    #infomation {
+      position: absolute;
+      padding-top: 200px;
+    }
+    </style>
+  </head>
+  <body>
+    <h1 id="title"> Dc stuff and important infomation</h1>
+    <table id="table">
+      <thead>
+        <tr>
+          <th>
+            Document (Bus Number)
+          </th>
+          <th>
+            Link (For PDF)
+          </th>
+          <th>
+            Comments
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Bus One
+          </td>
+          <td>
+            <a href="assets/pdf/bus1.pdf">Link</a>
+          </td>
+          <td>
+            None
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bus Two
+          </td>
+          <td>
+            <a href="assets/pdf/bus2.pdf">Link</a>
+          </td>
+          <td>
+            None
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bus Three
+          </td>
+          <td>
+            <a href="assets/pdf/bus3.pdf">Link</a>
+          </td>
+          <td>
+            None
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bus Four
+          </td>
+          <td>
+            <a href="assets/pdf/bus4.pdf">Link</a>
+          </td>
+          <td>
+            None
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p id="text2">
+      Richard's Stuff:<a href="/richard">Link</a>
+      Richard's Menu:<a href="/chpz">Link</a>
+    </p>
+    <p id="infomation">
+      Note: The recaptcha does not work yet as it is not setup... <br /> the setup may be done if I manage to <br />
+      find out how to do it. Well... if you really wanted to,<br />
+      you could solve random catphas and waste your time <a href="/recaptcha">Here</a> :p <br />
+      That is all... <br />
+      Richard Chang [Site Admin]- 11/18/16 <br /><br /><br />
+      Hosted Files: <a href="/jkwhywouldigiveyouthelinkstomyfilesanyway">Here</a>
+    </p><center>
+    </center>
+  </body>
+  </html>

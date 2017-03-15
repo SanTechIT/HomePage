@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Basic Page</title>
+      <link rel="shortcut icon" type="image/png" href="fvc.png"/>
+      <style>
+
+      </style>
+    </head>
+    <body><center>
+    <iframe src="https://docs.google.com/presentation/d/1iTaJvDdYwn4oaoCkiIPCC87jGNNw3hSHo0pFbYRewmc/embed?start=true&loop=true&delayms=3000" frameborder="0" width="1100" height="680" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </center>
+    </body>
+</html>

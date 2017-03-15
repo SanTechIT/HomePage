@@ -1,0 +1,15 @@
+body {
+  background-color:rgb(164, 194, 142);
+}
+#content-main {
+  background-color:rgb(164, 194, 142);
+  position: absolute;
+  margin-left: 120px;
+  overflow: auto;
+  width: 90%;
+}
+#footer {
+margin-top: 58%;
+margin-left: 90%;
+position: absolute;
+}

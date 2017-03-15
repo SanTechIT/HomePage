@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <html lang="en">
+      <title>The page with the downloads</title>
+      <link rel="shortcut icon" type="image/png" href="fvc.png"/>
+      <link rel="stylesheet" type="text/css" href="sidebar.css">
+      <link rel="stylesheet" type="text/css" href="maincss.css">
+
+      <style>
+      </style>
+    </head>
+    <body>
+      <div id="content-main">
+      <h1 id="title">Downloads</h1>
+      <table id="table">
+        <thead>
+          <tr>
+            <th>
+              File
+            </th>
+            <th>
+              Link for direct download
+            </th>
+            <th>
+              Size
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Basic Server (1.11.2)
+            </td>
+            <td>
+              <a href="assets/mc/server1112.zip" download >Link</a>
+            </td>
+            <td>
+              25.2MB
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Survival World Save (March 1, 2017)
+            </td>
+            <td>
+              <a href="assets/mc/survivalworld_March12017.zip" download >Link</a>
+            </td>
+            <td>
+              18.5MB
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Very Imprtant File
+            </td>
+            <td>
+              <a href="assets/" download>Link</a>
+            </td>
+            <td>
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <footer>
+        <div id="footer">
+        <p>
+          SanTech 2017
+        </p>
+      </div>
+    </footer>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<html>
+    <head>
+      <!-- Redirect Type 1 -->
+      <meta http-equiv="refresh" content="0;url=/sl/red" />
+      <!-- Redirect Type 1 -->
+    </head>
+    <body>
+    <p><center>
+    You will be redirected in
+
+      <script>
+
+    </script>
+     seconds</center></p>
+    <!-- Redirect Type 2 -->
+    <script>
+        var timer = setTimeout(function() {
+            window.location='/sl/red'
+        }, 0);
+    </script>
+    <!-- Redirect Type 2 -->
+
+</body>
+</html>

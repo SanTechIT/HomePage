@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>How to Integrate Google “No CAPTCHA reCAPTCHA” on Your Website</title>
+    <?php require'index.php';?>
+  </head>
+
+  <body>
+
+    <form action="" method="post">
+
+      <label for="name">Name:</label>
+      <input name="name" required><br />
+
+      <label for="email">Email:</label>
+      <input name="email" type="email" required><br />
+
+      <div>
+     <p>Prove to me that you are not a spambot!</p>
+     <br/>
+     <?php
+       require_once('recaptchalib.php');
+       $publickey = "<6Le10AsUAAAAAHEG4yelIig4mpCat-ItIfvd2eAs>";
+       echo recaptcha_get_html($publickey);
+     ?>
+ </div>
+
+      <input type="submit" value="Submit" />
+
+    </form>
+
+    <!--js-->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <php
+      foreach ($_POST as $key => $value) {
+        echo '<p><strong>' . $key.':</strong> '.$value.'</p>';
+      }
+    ?>
+  </php } ?>
+  </body>
+</html>

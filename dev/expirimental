@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Homepage</title>
+      <html lang="en">
+      <link rel="shortcut icon" type="image/png" href="fvc.png"/>
+      <link rel="stylesheet" type="text/css" href="sidebar.css">
+      <link rel="stylesheet" type="text/css" href="maincss.css">
+      <style>
+      #content {
+        position: absolute;
+        width: 90%;
+        height: 100px;
+        z-index: 2;
+
+      }
+      #text-welcome {
+        text-align: center;
+        color: orange;
+      }
+      #text-main {
+        text-align: center;
+
+      }
+      </style>
+    </head>
+    <body>
+      <header>
+
+      </header>
+      <div id="sidebar">
+        <div id="menu1">
+          <h4><a href="/home" style="text-decoration:none" >Menu</a></h4>
+        </div>
+        <div id="menu2">
+          <h4><a href="/downloads" style="text-decoration:none" >Downloads</a></h4>
+        </div>
+        <div id="menu3">
+          <h4><a href="/schedule" style="text-decoration:none" >Schedule</a></h4>
+        </div>
+        <div id="menudev">
+          <h4><a href="/Basic_Page" style="text-decoration:none" >Dev</a></h4>
+        </div>
+      </div>
+      <div id="content-main">
+        <iframe src="/ex2" id="content"></iframe>
+      <footer>
+        <div id="footer">
+        <p>
+          SanTech 2017
+        </p>
+      </div>
+    </footer>
+    </body>
+</html>

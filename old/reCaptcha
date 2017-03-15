@@ -1,0 +1,29 @@
+<!doctype HTML>
+<html>
+<head>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+  <title>reCaptcha!</title>
+  <style>
+  body {
+    background-color: orange;
+  }
+  #rcptext {
+    padding-top: 100px;
+    color:green;
+  }
+
+  </style>
+</head>
+<body>
+  <center>
+    <p id="rcptext">
+      A random ReCaptcha thing... I still dont know <br />
+      how to make this thing work. Tried searching on <br />
+      google already... No luck... :( You can still mess<br />
+      around with it as it kinda works. (It is not <br />
+      linked to an action... someone help me on that xD) <br />
+      </p>
+  <div class="g-recaptcha" data-theme="Dark Theme" data-sitekey="6Le10AsUAAAAAHEG4yelIig4mpCat-ItIfvd2eAs"></div>
+  </center>
+</body>
+</html>

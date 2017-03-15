@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <!-- Redirect Type 1 --> <!-- in case user has the script disabled... And also i felt like using both xD-->
+      <meta http-equiv="refresh" content="3;url=/sl/rick" />
+      <!-- Redirect Type 1 -->
+      <style>
+      #main-text{
+        padding-top: 150px;
+        text-align:center;
+      }
+      </style>
+    </head>
+    <body>
+    <p id="main-text">You will be redirected in 3 seconds!</p>
+    <!-- Redirect Type 2 -->
+    <script>
+        var timer = setTimeout(function() {
+            window.location='/sl/rick'
+        }, 3000);
+    </script>
+    <!-- Redirect Type 2 -->
+</body>
+</html>

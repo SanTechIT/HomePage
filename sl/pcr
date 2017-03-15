@@ -1,0 +1,11 @@
+<html>
+<meta http-equiv="refresh" content="5;url=https://webappsca.pcrsoft.com/Clue/SC-Assignments---Start-Date/8425" />
+    <body>
+    <p style="text-align:center;">You will be redirected to pcrsoft in 3 seconds</p>
+    <script>
+        var timer = setTimeout(function() {
+            window.location='https://webappsca.pcrsoft.com/Clue/SC-Assignments---Start-Date/8425'
+        }, 3000);
+    </script>
+</body>
+</html>

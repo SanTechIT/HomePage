@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Media Testing</title>
+  </head>
+    <style>
+      #main-text{
+        text-align: center;
+
+      }
+    </style>
+  <body>
+    <p id="main-text">
+      Enjoy some music!
+    </p>
+    <embed src="/assets/media/audio/music.mp3" autostart="true" loop="true" hidden="true" >
+  </body>
+</html>

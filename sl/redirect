@@ -1,0 +1,17 @@
+<html>
+    <head>
+      <!-- Redirect Type 1 -->
+      <meta http-equiv="refresh" content="3;url=google.com" />
+      <!-- Redirect Type 1 -->
+    </head>
+    <body>
+    <p>You will be redirected in 3 seconds</p>
+    <!-- Redirect Type 2 -->
+    <script>
+        var timer = setTimeout(function() {
+            window.location='https://google.com'
+        }, 3000);
+    </script>
+    <!-- Redirect Type 2 -->
+</body>
+</html>
