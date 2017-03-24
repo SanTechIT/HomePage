@@ -1,0 +1,13 @@
+.sch {
+  display: none;
+  position: relative;
+  background-color: lightblue;
+  width: 250px;
+  border: 3px solid;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
