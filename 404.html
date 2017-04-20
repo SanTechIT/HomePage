@@ -1,60 +1,60 @@
 <!DOCTYPE html>
+<!--
+Credits...
+Colors from: https://flatuicolors.com/
+-->
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <title>Basic Page</title>
-      <link rel="shortcut icon" type="image/png" href="/assets/fvc.png"/>
-      <link rel="stylesheet" type="text/css" href="/homepage/css/sidebar.css">
-      <link rel="stylesheet" type="text/css" href="/homepage/css/maincss.css">
-      <style>
-      #text-main {
-        color: lightblue;
-      }
-      #video{
-        z-index: 5;
-      }
-      #error404 {
-        text-align: center;
-      }
-      </style>
-    </head>
-    <body>
-      <div id="sidebar">
-        <div id="menu1">
-          <h4><a href="/homepage/menu/home" style="text-decoration:none" >Menu</a></h4>
-        </div>
-        <div id="menu2">
-          <h4><a href="/homepage/menu/downloads" style="text-decoration:none" >Downloads</a></h4>
-        </div>
-        <div id="menu3">
-          <h4><a href="/homepage/menu/schedule" style="text-decoration:none" >Schedule</a></h4>
-        </div>
-        <div id="menu4">
-          <h4><a href="/homepage/menu/youtube" style="text-decoration:none" >Youtube</a></h4>
-        </div>
-        <div id="menudev">
-          <h4><a href="/homepage/Basic_Page" style="text-decoration:none" >Dev</a></h4>
-        </div>
+<head>
+  <meta name="veiwpoint" content="width=device-width, inital-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="/css/mainpage.css">
+  <style>
+    #section_one {
+      background-color: rgb(149, 165, 166);
+      height: auto;
+    }
+    #section_two {
+      background-color: rgb(149, 165, 166);
+      height: auto;
+    }
+    #quicktext {
+      text-align: center;
+    }
+    #section_one-text {
+      text-align: center;
+      margin: 5px 0px 5px 0px;
+    }
+  </style>
+</head>
+<body>
+<div id="main-wrapper">
+  <div id="header-wrapper">
+    <div id="menubar-wrapper">
+      <h3 id="brand">SanTech</h3>
+      <!-- buttons -->
+      <div id="button-wrapper">
+        <a class="menubar-buttons atagbutton" href="/new/home.html"><p class="button-text">Home</p></a>
+        <a class="menubar-buttons atagbutton" href="/new/home/schedule.html"><p class="button-text">Schedule</p></a>
+        <a class="menubar-buttons atagbutton" href="/new/home/downloads.html"><p class="button-text">Downloads</p></a>
+        <a class="menubar-buttons atagbutton" href="/new/home/home.html"><p class="button-text">Button</p></a>
+        <a class="menubar-buttons atagbutton" href="/new/home/home.html"><p class="button-text">Button</p></a>
       </div>
-      <!-- HTML Code goes here! THe part above is to be used for the sidebar! -->
-      <div id="content-main">
-        <div id="error404">
-          <h2>The resource you are looking for could not be found</h2>
-          <h3>Possible problems: </h3>
-          <h5>
-            The URL is spelled incorrecly <br />
-            The resource has been moved <br />
-            The resource has been deleted from the server <br />
-          </h5>
-        </div>
+    </div>
+  </div>
+  <!-- Content goes here -->
+  <div id="content-wrapper">
+    <div id="content-main">
+      <div id="error404">
+        <h2>The resource you are looking for could not be found</h2>
+        <h3>Possible problems: </h3>
+        <h5>
+          The URL is spelled incorrecly <br />
+          The resource has been moved <br />
+          The resource has been deleted from the server <br />
+        </h5>
       </div>
-      <footer>
-        <div id="footer">
-          <p>
-            SanTech 2017
-          </p>
-        </div>
-      </footer>
-
-    </body>
-</html>
+    </div>
+  </div>
+</div>
+<footer>
+</footer>
+</body>
