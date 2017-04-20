@@ -1,3 +1,6 @@
+a:visited {
+    color: green;
+}
 #sidebar{
   position:absolute;
   top:0;
