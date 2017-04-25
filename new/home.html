@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+Credits...
+Colors from: https://flatuicolors.com/
+-->
+<html>
+<head>
+  <meta name="veiwpoint" content="width=device-width, inital-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="/css/mainpage.css">
+  <script src="/js/main.js"></script>
+  <style>
+    #section_one {
+      background-color: rgb(149, 165, 166);
+      height: auto;
+      }
+    #section_two {
+      background-color: rgb(149, 165, 166);
+      height: auto;
+    }
+    #quicktext {
+      text-align: center;
+    }
+    #section_one-text {
+      text-align: center;
+      margin: 5px 0px 5px 0px;
+    }
+  </style>
+  <script>
+  function fun(){
+    console.log(">>>-----------------------------------------<<<");
+    console.log("Hello!!");
+    console.log("This is the js console");
+    console.log("Please go awway");
+    console.log("Bai");
+    console.log(">>>-----------------------------------------<<<");
+    if(document.cookie === "cookievalue=true"){
+      console.log("Your Computer has already been hacked")
+    } else {
+    console.log("Your computer has been sucsessfuly hacked");
+    }
+    document.cookie = "cookievalue=true";
+    console.log(document.cookie);
+
+
+  }
+  </script>
+</head>
+<body onload="fun()">
+  <div id="main-wrapper">
+    <div id="header-wrapper">
+      <div id="menubar-wrapper">
+        <h3 id="brand">SanTech</h3>
+        <!-- buttons -->
+        <div id="button-wrapper">
+          <a class="menubar-buttons atagbutton" href="/new/home.html"><p class="button-text">Home</p></a>
+          <a class="menubar-buttons atagbutton" href="/new/home/schedule.html"><p class="button-text">Schedule</p></a>
+          <a class="menubar-buttons atagbutton" href="/new/home/downloads.html"><p class="button-text">Downloads</p></a>
+          <a class="menubar-buttons atagbutton" href="/new/home/home.html"><p class="button-text">Button</p></a>
+          <a class="menubar-buttons atagbutton" href="/new/home/home.html"><p class="button-text">Button</p></a>
+        </div>
+      </div>
+    </div>
+    <!-- Content goes here -->
+    <div id="content-wrapper">
+      <p id="quicktext">
+        Hello!
+      </p>
+      <div id="section_one">
+        <p id="section_one-text">
+          Hello unknown person :D Welcome to my new website! I would say that it is about done however, there my still be random "features" in the code that I have yet to remove. If you have any good ideas for the website, please tell me! <br />
+          - Site Admin
+        </p>
+      </div>
+      <div id="section_two">
+        <img src="/img/trolling.png" />
+      </div>
+    </div>
+  </div>
+  <footer>
+  </footer>
+</body>
